@@ -1,0 +1,306 @@
+.container {
+    margin: 1rem;
+    text-align: center;
+}
+
+.nav {
+    width: 56px;
+    height: 25px;
+    padding-right: 245px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 120%;
+    color: #2C72B8;
+}
+
+
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav li.active {
+    background-color: none;
+}
+
+.nav li:hover {
+    background-color: #B3B3B3;
+}
+
+
+
+
+
+.podex {
+    position: relative;
+    width: 1334px;
+    height: 1024px;
+    padding-top: 14px;
+    background: #2C72B8;
+}
+
+.head {
+    position: relative;
+    width: 1283px;
+    height: 96px;
+    margin-left: 29px;
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+
+.logo {
+    position: absolute;
+    width: 174.73px;
+    height: 64px;
+    left: 32px;
+    top: 16px;
+
+}
+
+.dimensionLogo {
+    position: absolute;
+    left: 1.35%;
+    right: 0.06%;
+    top: 0.04%;
+    bottom: 3.15%;
+}
+
+.ector {
+    position: absolute;
+    left: 10.44%;
+    right: 4.17%;
+    top: 16.45%;
+    bottom: 4.17%;
+    background: #636363;
+    opacity: 0.1;
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 583px;
+    height: 33px;
+    left: 664px;
+    top: 31px;
+
+}
+
+.title {
+    width: 628px;
+    height: 70px;
+    margin-bottom: 12px;
+    margin-left: 41px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 88%;
+    color: #FFFFFF;
+}
+
+.middleTitle {
+    width: 201px;
+    height: 46px;
+    margin-left: 41px;
+    margin-top: 193px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.subTitle {
+    width: 628px;
+    height: 87px;
+    margin-left: 41px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 120%;
+    color: #EEEEEE;
+}
+
+.startBattle {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 120%;
+    color: #9ACDFF;
+    padding: 16px 32px;
+    width: 172px;
+    height: 57px;
+    margin-left: 41px;
+    margin-top: 17px;
+    border-radius: 100px !important;
+    border: 2px solid #9ACDFF !important
+}
+
+.homeImage {
+    position: absolute;
+    width: 628px;
+    height: 628px;
+    left: 680px;
+    top: 262px;
+    background: url(../images/image.png);
+}
+
+/* Battle */
+
+.battle {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #2C72B8;
+}
+
+.battleTitle {
+    position: absolute;
+    width: 354px;
+    height: 35px;
+    left: 520px;
+    top: 50px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 88%;
+    text-align: center;
+    color: #E8F3FF;
+}
+
+/* Choose your first Pokemon */
+
+.firstPokomon {
+    width: 490px;
+    height: 27px;
+    padding-top: 137px;
+    padding-left: 53px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.searchFirstPokomon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin-left: 44px;
+    margin-top: 35px;
+    width: 357px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+}
+
+.secondPokomon {
+    /* Choose your second Pokemon */
+
+    margin-left: 647px;
+    margin-top: -100px;
+    width: 300px;
+    height: 27px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.searchSecondPokomon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 357px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: -297px;
+}
+
+.battleStyle {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 25px;
+}
+
+.pokomonCard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    margin-left: -109px;
+    margin-top: 438px;
+    width: 356px;
+    height: 356px;
+    background: #FFFFFF;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+}
+
+.cardImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 192px;
+    height: 276px;
+}
+
+.images {
+    width: 192px;
+    height: 186px;
+    border-radius: 16px;
+}
+
+.name {
+    width: 192px;
+    height: 40px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+}
